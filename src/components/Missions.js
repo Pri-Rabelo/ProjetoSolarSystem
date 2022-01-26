@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+import Title from './Title'; // requisito 8
 
 class Missions extends React.Component {
   render() {
