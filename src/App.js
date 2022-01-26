@@ -1,10 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from './components/Header'; // requisito 1
+import SolarSystem from './components/SolarSystem'; // Requisito 2
 
 class App extends React.Component {
   render() {
     return (
-      <Header />
+      <div>
+        <Header />
+        <SolarSystem />
+      </div>
     );
   }
 }
