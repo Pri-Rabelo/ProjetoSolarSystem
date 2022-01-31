@@ -6,8 +6,8 @@ import MissionCard from './MissionCard'; // requisito 10
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
-        <Title headline="Missões" />
+      <div data-testid="missions" className="missoes">
+        <Title headline="Missões" className="title" />
         {missions.map(({ name, year, country, destination }) => (
           <MissionCard
             key={ name }
