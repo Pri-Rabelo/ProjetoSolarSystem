@@ -12,13 +12,18 @@ body {
   text-align: center;
 }
 
+.planet {
+  display: flex;
+  flex-direction: row;
+}
+
 .missoes {
   display: flex;
   flex-flow: wrap;
   text-align: center;
 }
 
-.planet {
-  display: flex;
-  flex-direction: row;
+.cards{
+  background-color: rgb(121, 114, 114);
 }
+
