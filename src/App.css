@@ -1,29 +1,42 @@
-.App {
-  text-align: center;
-}
-
 body {
+  display: flexbox;
   background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/1605/Amazing_nebula_stars-Expanse_Space_HD_Wallpaper_1366x768.jpg') 
 }
 
-.title {
-  color: antiquewhite;
-  font-family: serif;
-  text-align: center;
+.card{
+  background-color: rgb(71, 68, 68);
+  border: 2px solid rgb(151, 137, 137);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
 }
 
-.planet {
-  display: flex;
-  flex-direction: row;
+.title {
+  border-color: aliceblue;
+  color: antiquewhite;
+  display: flexbox;
+  font-family: serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .missoes {
+  border: 5px solid rgb(151, 137, 137);
   display: flex;
-  flex-flow: wrap;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
 }
 
-.cards{
-  background-color: rgb(121, 114, 114);
+.planet {
+  border: 5px solid rgb(151, 137, 137);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
+.Planets {
+  justify-content: space-between;
+}
